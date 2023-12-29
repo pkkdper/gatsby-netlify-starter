@@ -1,0 +1,122 @@
+button.cta-btn{
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+button.cta-btn a{
+    position: relative;
+    width: 100%;
+    font-size: 13px;;
+    padding: 18px 41px;
+    line-height: 1.42857143;
+    display: inline-block;
+    margin-bottom: 0;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+}
+
+button.go-back-btn{
+    position: fixed;
+    /* top: calc(85px + 2rem); */
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0;
+    z-index: 999;
+}
+
+button.go-back-btn a{
+    padding: 1rem 1.25rem;
+}
+
+button.go-back-btn svg{
+    padding-right: 8px;
+}
+
+button.btn-bright a{
+    background: #fff;
+    border: 1px solid transparent;
+    color: #1a1a1a;
+}
+
+button.btn-bright a:hover{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+button.btn-dark a{
+    background: #1a1a1a;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+button.btn-dark a:hover{
+    background: transparent;
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+button.btn-color-bright a, button.btn-color-dark a{
+    background: #ef7b18;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+button.btn-color-bright a:hover{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+button.btn-color-dark a:hover{
+    background: transparent;
+    color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+button.go-back-btn a:hover{
+    background: #ffffff;
+    color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+@media only screen and (max-width: 768px){
+    button.go-back-btn{
+        right: 1.5rem;
+        bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    button.cta-btn{
+        width: 100%;
+    }
+    button.go-back-btn{
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    button.cta-btn a{
+        white-space: normal;
+        padding: 18px 18px;
+    }
+}
